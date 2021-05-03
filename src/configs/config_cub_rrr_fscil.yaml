@@ -1,0 +1,66 @@
+wandb:
+  log: false
+  project: 'rrr'
+  notes: ''
+
+experiment:
+  dataset: 'cub'
+  im_size: 224
+  ntasks: 11
+  total_num_classes: 200
+  approach: 'rrr'
+  raw_memory_only: false
+  xai_memory: true
+  segmentation: false
+  augmentation: true
+  memory_budget: 500
+  fscil: true
+  lr_multiplier: 2
+  fs_batch: 10
+
+device:
+  name: 'cuda'
+  multi: false
+  workers: 0
+
+architecture:
+  backbone: 'resnet18'
+  pretrained: true
+  multi_head: false
+
+saliency:
+  method: 'gc'
+  upsample: false
+  loss: 'l1'
+  regularizer: 100
+  lr: 0.0005
+
+train:
+  nepochs: 70
+  lr: 0.001
+  lr_factor: 3
+  lr_patience: 5
+  batch_size: 128
+  memory_batch_size: 10
+  pc_valid: 0
+  wd: 0.1
+  optimizer: 'radam'
+  shuffle_tasks: false
+  gamma: 0.2
+  task_loss_reg: 1
+  l1_reg: false
+  l1_reg_factor: 1e-5
+  num_runs: 1
+
+path:
+  data: '../data'
+  checkpoint: './checkpoints/'
+  output: ''
+
+
+
+
+
+
+
+
