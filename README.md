@@ -1,7 +1,10 @@
 # [Remembering for the Right Reasons: Explanations Reduce Catastrophic Forgetting (ICLR 2021)](https://openreview.net/pdf?id=tHgJoMfy6nI)
 
-This is the PyTorch implementation of [Remembering for the Right Reasons (RRR)](https://openreview.net/pdf?id=tHgJoMfy6nI) accepted at ICLR 2021.
+This is the PyTorch implementation of [Remembering for the Right Reasons (RRR)](https://openreview.net/pdf?id=tHgJoMfy6nI) published at ICLR 2021.
 
+[[Paper](https://openreview.net/pdf?id=tHgJoMfy6nI)]
+[[ICLR Talk](https://iclr.cc/virtual/2021/poster/2950)]
+[[Slides](https://www.dropbox.com/s/tl4ss0dpau15yx2/RRR_ICLRSlides.pdf?dl=0)]
 
 ### Citation
 
